@@ -1,0 +1,135 @@
+.img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: relative;
+  top: -75px;
+  margin-bottom: -100px;
+}
+.head{
+  position: absolute;
+  top: 0px; /* Adjust as needed */
+  left: 54%;
+  transform: translateX(-50%);
+  z-index: 1;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #C8C7BC;
+  font-size: 86px;
+  font-weight: 700;
+}
+.hidden-letter {
+  visibility: hidden;
+  letter-spacing: -0.3em; /* Adjust the value as needed */
+}
+.head2{
+  position: absolute;
+  top: 115px; /* Adjust as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #C8C7BC;
+  font-size: 68px;
+  font-weight: 700;
+}
+.text {
+  font-size: 16px; /* Adjust the font size as needed */
+  width: 220px; /* Adjust the width as needed */
+  height: 38px; /* Adjust the height as needed */
+  border-radius: 20px; /* Set border-radius to half the height for an oval shape */
+  text-align: center; 
+  border: none; /* Remove the border */
+  outline: none;
+}
+.voice{
+  font-size: 16px; /* Adjust the font size as needed */
+  width: 250px; /* Adjust the width as needed */
+  height: 38px; /* Adjust the height as needed */
+  border-radius: 20px; /* Set border-radius to half the height for an oval shape */
+  text-align: center; 
+  border: none; /* Remove the border */
+  outline: none;
+}
+.selected {
+  background-color: #007bff; /* Adjust the color as needed */
+  color: #fff; /* Adjust the color of the text as needed */
+}
+
+.speed-controls {
+  font-size: 16px; /* Adjust the font size as needed */
+  width: 125px; /* Adjust the width as needed */
+  height: 38px; /* Adjust the height as needed */
+  border-radius: 20px; /* Set border-radius to half the height for an oval shape */
+  text-align: center; 
+  border: none; /* Remove the border */
+  outline: none;/* Adjust the border radius as needed */
+
+}
+.sett{
+  position: absolute;
+  height: 260px;
+  width: 260px
+}
+.calc{
+  font-size: 30px;
+  color: #fff;
+  text-decoration: solid;
+}
+
+.textarea {
+    width: 60%;
+    height: 200px; /* Set desired height */
+    font-size: 20px; /* Set desired font size */
+}
+.incorrect {
+    color: red;
+    font-weight: bold;
+}
+/* CSS */
+.button-30 {
+  position: absolute;
+  align-items: center;
+  appearance: none;
+  background-color: #FCFCFD;
+  border-radius: 4px;
+  border-width: 0;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #36395A;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 40px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+}
+
+.button-30:focus {
+  box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+.button-30:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button-30:active {
+  box-shadow: #D6D6E7 0 3px 7px inset;
+  transform: translateY(2px);
+}
